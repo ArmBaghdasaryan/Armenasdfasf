@@ -1,0 +1,5 @@
+{
+  "fileUploadCreate": "/file-upload/create",
+  "fileUploadRead": "/file-upload/read",
+  "fileUploadDelete": "/file-upload/delete"
+}

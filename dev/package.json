@@ -1,0 +1,16 @@
+{
+  "name": "kdipa-keycloak-customization",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.2.5"
+  },
+  "devDependencies": {
+  }
+}

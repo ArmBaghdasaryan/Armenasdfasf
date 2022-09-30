@@ -1,0 +1,72 @@
+:root {
+  --main-color: #1A5380;
+  --main-color-hover: #15476e;
+  --error-color: #f44336,
+  --warn-color: ##ffcf40,
+  --success-color: #00ff2a,
+  --border-color: #f2f6fa,
+  --text-color: #3D3D3D
+}
+
+a {
+  color: var(--main-color);;
+}
+
+a:focus {
+  outline: none;
+}
+
+.login-pf body {
+  background: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  color: var(--text-color);;
+}
+.login-pf-page {
+  padding-top: 0;
+}
+#kc-header-wrapper {
+  display: none;
+}
+#kc-header {
+  margin: 0;
+}
+.pf-c-form-control {
+  border-radius: 4px;
+  outline: none;
+}
+
+.card-pf {
+  margin: 0 auto;
+  box-shadow: none;
+  border: none;
+  border-color: var(--main-color);
+}
+
+.select-auth-box-headline {
+  color: var(--main-color);
+}
+.pf-c-button.pf-m-primary {
+  border-radius: 4px;
+  background-color: var(--main-color);
+}
+
+.pf-c-button.pf-m-primary:hover {
+  background-color: var(--main-color-hover);
+}
+
+.pf-c-form-control:focus {
+  --pf-c-form-control--BorderBottomColor: var(--main-color);
+}
+#kc-info-wrapper {
+  background-color: white;
+}
+
+.password-reveal {
+  color: #5500B3;
+  margin-left: -40px;
+  font-size: 20px;
+  cursor: pointer;
+}

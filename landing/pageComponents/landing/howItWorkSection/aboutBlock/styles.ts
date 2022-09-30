@@ -1,0 +1,72 @@
+const muiStyles = {
+  container: {
+    mt: 7,
+    display: 'grid',
+    gridTemplateColumns: '4fr 6fr',
+  },
+  smallTitle: {
+    fontFamily: 'Poppins',
+    textTransform: 'uppercase',
+    fontSize: '24px',
+    fontWeight: 500,
+    lineHeight: '32px',
+    color: 'primary.main',
+  },
+  title: {
+    fontFamily: 'Poppins',
+    fontSize: { xs: '44px', sm: '56px' },
+    lineHeight: { xs: '56px', sm: '64px' },
+    fontWeight: 700,
+    color: 'primary.textColor1',
+    alignSelf: 'start',
+  },
+  secondaryTitle: {
+    fontFamily: 'Poppins',
+    fontSize: { xs: '60px', sm: '70px' },
+    lineHeight: { xs: '60px', sm: '70px' },
+    fontWeight: 600,
+    color: 'secondary.main',
+    mr: 2,
+  },
+  lightText: {
+    fontFamily: 'Poppins',
+    fontSize: { xs: '14px', sm: '20px' },
+    lineHeight: { xs: '24px', sm: '28px' },
+    fontWeight: 400,
+    color: 'primary.textColor3',
+  },
+  normalText: {
+    fontFamily: 'Poppins',
+    fontSize: { xs: '14px', sm: '20px' },
+    lineHeight: { xs: '24px', sm: '36px' },
+    fontWeight: 400,
+    color: 'primary.textColor2',
+    ml: { xs: 0, sm: 0, md: 0, lg: 6, xl: 6 },
+    mt: { xs: 5, sm: 6, md: 6, lg: 0, xl: 0 },
+  },
+  one: {
+    gridColumn: { xs: '1 / span 3', sm: '1 / span 3', md: '1 / span 3', lg: 1, xl: 1 },
+    gridRow: 1,
+    maxWidth: '472px',
+  },
+  two: {
+    gridColumn: { xs: '1 / span 3', sm: '1 / span 3', md: '1 / span 3', lg: 1, xl: 1 },
+    gridRow: { xs: 4, sm: 4, md: 4, lg: 3, xl: 3 },
+    maxWidth: '472px',
+    mt: { xs: '48px', sm: '40px', md: '40px', lg: '90px', xl: '90px' },
+    display: 'flex',
+    alignSelf: 'end',
+    alignItems: 'center',
+  },
+  three: {
+    gridColumn: {
+      xs: '1 / span 2',
+      sm: '1 / span 2',
+      md: '1 / span 2',
+      lg: '2 / span 2',
+      xl: '2 / span 2',
+    },
+    gridRow: { xs: 3, sm: 3, md: 3, lg: '1 / span 3', xl: '1 / span 3' },
+  },
+};
+export { muiStyles };

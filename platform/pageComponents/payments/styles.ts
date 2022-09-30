@@ -1,0 +1,3 @@
+const muiStyles = {
+};
+export { muiStyles };
